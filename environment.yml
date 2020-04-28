@@ -1,0 +1,10 @@
+name: coronawhy-pydataverse
+channels:
+- defaults
+dependencies:
+- python=3.6.4
+- pip:
+  - pandas >= 0.23.2
+  - simplejson>=3.16.0
+  - jupyter==1.0.0
+  - https://github.com/aussda/pyDataverse/archive/develop.zip
